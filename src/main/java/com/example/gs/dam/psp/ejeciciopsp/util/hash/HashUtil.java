@@ -3,12 +3,11 @@ package com.example.gs.dam.psp.ejeciciopsp.util.hash;
 import java.security.MessageDigest;
 import java.util.logging.Logger;
 
-import com.example.gs.dam.psp.ejeciciopsp.controlador.HiloCalculadora;
 import com.example.gs.dam.psp.ejeciciopsp.util.logs.LogsUtil;
 
 public class HashUtil {
 
-    private static final Logger logger = LogsUtil.getLogger(HiloCalculadora.class.getName());
+    private static final Logger logger = LogsUtil.getLogger("Cliente");
 
     public static String convertirSHA256(String cadena) throws Exception {
         MessageDigest md = null;

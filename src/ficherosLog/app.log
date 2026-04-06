@@ -1,0 +1,8 @@
+abr 06, 2026 9:10:34 P. M. com.example.gs.dam.psp.ejeciciopsp.arranque.Servidor main
+INFO: Servidor iniciado en puerto 5000
+abr 06, 2026 9:10:41 P. M. com.example.gs.dam.psp.ejeciciopsp.controlador.HiloCalculadora run
+WARNING: Conexión cerrada o problema de I/O: null
+abr 06, 2026 9:14:01 P. M. com.example.gs.dam.psp.ejeciciopsp.arranque.Servidor main
+INFO: Servidor iniciado en puerto 5000
+abr 06, 2026 9:14:16 P. M. com.example.gs.dam.psp.ejeciciopsp.controlador.HiloCalculadora run
+WARNING: Conexión cerrada o problema de I/O: null

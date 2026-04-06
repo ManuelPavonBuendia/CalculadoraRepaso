@@ -14,7 +14,7 @@ public class LogsUtil {
 
         if (!inicializado) {
             try {
-                FileHandler fh = new FileHandler("demo/app.log", true);
+                FileHandler fh = new FileHandler("demo/src/ficherosLog/app.log", true);
                 fh.setFormatter(new SimpleFormatter());
                 logger.addHandler(fh);
                 logger.setUseParentHandlers(false);
