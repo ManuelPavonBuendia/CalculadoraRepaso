@@ -6,6 +6,7 @@ import java.net.Socket;
 import java.util.logging.Logger;
 
 import com.example.gs.dam.psp.ejeciciopsp.controlador.HiloCalculadora;
+import com.example.gs.dam.psp.ejeciciopsp.util.logs.LogMessages;
 import com.example.gs.dam.psp.ejeciciopsp.util.logs.LogsUtil;
 
 public class Servidor {
@@ -15,7 +16,7 @@ public class Servidor {
 
     public static void main(String[] args) throws IOException {
         try (ServerSocket server = new ServerSocket(PUERTO)) {
-            logger.info("Servidor iniciado en puerto 5000");
+            logger.info(String.format(LogMessages.SERVIDOR_INICIADO, PUERTO));
             while (true) {
                 Socket cliente = server.accept();
                 new Thread(new HiloCalculadora(cliente)).start();
