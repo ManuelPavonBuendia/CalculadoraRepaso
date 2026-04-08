@@ -9,7 +9,7 @@ public class LogsUtil {
 
     private static boolean inicializado = false;
 
-    private static final String RUTA_LOG = "demo/src/ficherosLog/app.log";
+    private static final String RUTA_LOG = "src/ficherosLog/app.log";
 
     public static Logger getLogger(String nombre) {
         Logger logger = Logger.getLogger(nombre);
