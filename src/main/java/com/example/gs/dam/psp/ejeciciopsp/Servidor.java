@@ -1,4 +1,4 @@
-package com.example.gs.dam.psp.ejeciciopsp.arranque;
+package com.example.gs.dam.psp.ejeciciopsp;
 
 import java.io.IOException;
 import java.net.ServerSocket;
@@ -11,8 +11,8 @@ import com.example.gs.dam.psp.ejeciciopsp.util.logs.LogsUtil;
 
 public class Servidor {
 
-    static final int PUERTO = 8888;
-    private static final Logger logger = LogsUtil.getLogger(HiloCalculadora.class.getName());
+    public static final int PUERTO = 8888;
+    private static final Logger logger = LogsUtil.getLogger(Servidor.class.getName());
 
     public static void main(String[] args) throws IOException {
         try (ServerSocket server = new ServerSocket(PUERTO)) {
